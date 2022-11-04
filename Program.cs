@@ -3,5 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InsertionSort { }
+namespace InsertionSort
+{
+    class Program
+    {
+        static public void InsertionSorting()
+        {
+            
+        }
+    }
+}
 
