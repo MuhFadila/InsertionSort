@@ -23,7 +23,19 @@ namespace InsertionSort
                 Console.Write(numarray[k] + " ");
             Console.Write("\n");
             for (int i = 1; i < max; i++)
-            { }
+            {
+                int MF = i;
+                while (MF > 0)
+                {
+                    if (numarray[MF - 1] > numarray[MF])
+                    {
+                        int temp = numarray[MF - 1];
+                        numarray[MF - 1] = numarray[MF];
+                        numarray[MF] = temp;
+                        MF--;
+                    }
+                }
+            }
         }   
     }
 }
