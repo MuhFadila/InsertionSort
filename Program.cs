@@ -21,6 +21,9 @@ namespace InsertionSort
             Console.Write("Input int array   :   ");
             for (int k = 0; k < max; k++)
                 Console.Write(numarray[k] + " ");
+            Console.Write("\n");
+            for (int i = 1; i < max; i++)
+            { }
         }   
     }
 }
