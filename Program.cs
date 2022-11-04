@@ -7,7 +7,7 @@ namespace InsertionSort
 {
     class Program
     {
-        static public int InsertionSorting()
+        static int InsertionSorting()
         {
             Console.Write("\nProgram for sorting a numeric array using Insertion Sorting");
             Console.Write("\n\nEnter number of elements: ");
