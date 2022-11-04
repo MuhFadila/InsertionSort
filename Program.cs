@@ -14,7 +14,10 @@ namespace InsertionSort
             int max = Convert.ToInt32(Console.ReadLine());
             int[] numarray = new int[30];
             for (int i = 0; i < max; i++)
-            { }
+            {
+                Console.Write("\nEnter [" + (i + 1).ToString() + "] element: ");
+                numarray[i] = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
