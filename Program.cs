@@ -34,7 +34,14 @@ namespace InsertionSort
                         numarray[MF] = temp;
                         MF--;
                     }
+                    else
+                        break;
                 }
+                Console.Write("Iteration " + i.ToString() + ": ");
+                for (int k = 0; k < max; k++)
+                    Console.Write(numarray[k] + " ");
+                Console.Write("\n");
+                //Console.Write("/*** " + (i + 1).ToString() + " numbers from the begining of the array are input and they are sorted ***/\n");
             }
         }   
     }
