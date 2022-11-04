@@ -51,8 +51,12 @@ namespace InsertionSort
                 Console.Write("\n");
             }
             return 0;
-        }   
-        
+        }
+        static void Main(string[] args)
+        {
+            InsertionSorting();
+            Console.ReadLine();
+        }
     }
 }
 
