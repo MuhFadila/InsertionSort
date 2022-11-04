@@ -43,6 +43,13 @@ namespace InsertionSort
                 Console.Write("\n");
                 //Console.Write("/*** " + (i + 1).ToString() + " numbers from the begining of the array are input and they are sorted ***/\n");
             }
+            Console.Write("\n\nThe numbers in ascending orders are given below:\n\n");
+            for (int i = 0; i < max; i++)
+            {
+                Console.Write("Sorted [" + (i + 1).ToString() + "] element: ");
+                Console.Write(numarray[i]);
+                Console.Write("\n");
+            }
         }   
     }
 }
